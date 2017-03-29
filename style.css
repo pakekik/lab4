@@ -1,0 +1,84 @@
+body
+{
+	background: linear-gradient(to right, #7C005A, #DF38B1);
+	padding: 10px;
+	font-family: Helvetica;
+	font-size: 16px;
+	color: white;
+	margin-top: 20px;
+	margin-left: 15px;
+    text-align: center
+}
+		
+h1
+{
+    margin-bottom: -15px; /* Отрицательный отступ между заголовком и текстом */
+   }
+
+p
+{
+    text-indent: 20px; /* Отступ первой строки в пикселах */
+   }
+
+a
+{
+	color: red;
+	text-decoration: none;
+	transition:1;
+	outline:none;
+}
+
+.menu
+{
+	right: 20px;
+	top: 20px;
+	margin: 20px;
+}
+  
+.menu-button
+{
+	border: 1px solid;
+	border-color: #999;
+	padding: 15px;
+	box-shadow: 0 0 5px #999;
+	font-size: 24px;
+	background: linear-gradient(to top left, #805, #b25);
+}
+
+.menu-button:hover
+{
+	border-color: #fff;
+	box-shadow: 0 0 15px #fff;
+	background: linear-gradient(to bottom right, #805, #b25);
+}
+
+.menu-button-active
+{
+	border: 1px solid;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 40px;
+	font-size: 24px;
+	border-color: #eee;
+	box-shadow: 0 0 15px #fff;
+	background: linear-gradient(to top left, #805, #b25);
+}
+
+.button-up
+{
+	opacity: 0.3;
+	padding: 10px;
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	color: #fff;
+	background-color: #000;
+	font-family: Arial Black;
+	font-size: 20px;
+}
+
+.button-up:hover
+{
+	opacity: 0.5;
+}
